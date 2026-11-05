@@ -1,4 +1,4 @@
-# 🎭 Emotion-Aware Text-to-Speech System
+#  Emotion-Aware Text-to-Speech System
 
 An advanced, modular TTS system that understands and controls emotional expression dynamically. Unlike typical TTS systems that apply a fixed emotion label to an entire sentence, this system models emotion as a **continuous, controllable signal** that can evolve over time — ideal for stories, audiobooks, and expressive dialogue.
 
@@ -133,7 +133,7 @@ pipeline = EmotionTTSPipeline(config)
 
 ## Future Extensions
 
-- 🔬 **Diffusion-based vocoder** for higher quality synthesis
-- 🧠 **Adaptive emotional planning** using LLM-based emotion trajectories
-- 🎯 **Fine-tuned emotion embeddings** injected directly into the acoustic model
-- 🌐 **Multi-speaker, multi-language** emotion-aware synthesis
+- **Diffusion-based vocoder** for higher quality synthesis
+- **Adaptive emotional planning** using LLM-based emotion trajectories
+- **Fine-tuned emotion embeddings** injected directly into the acoustic model
+- **Multi-speaker, multi-language** emotion-aware synthesis

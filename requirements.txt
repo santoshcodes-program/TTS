@@ -1,0 +1,36 @@
+# Emotion-Aware TTS System — Dependencies
+# Python >= 3.10
+
+# Core ML
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# TTS Acoustic Model
+espnet>=202402
+espnet_model_zoo
+
+# Vocoder
+parallel_wavegan
+
+# Emotion Analysis
+transformers>=4.30.0
+
+# Interpolation / signal processing
+scipy>=1.10.0
+
+# Audio I/O
+soundfile>=0.12.0
+
+# Utilities
+numpy>=1.24.0
+pyyaml>=6.0
+
+# App UI
+streamlit>=1.33.0
+
+# TTS engine (lightweight, works on all platforms)
+gTTS>=2.5.0
+
+# Audio analysis & mel spectrogram
+librosa>=0.10.0
+matplotlib>=3.7.0

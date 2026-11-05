@@ -1,0 +1,11 @@
+# Minimal dependencies for the API-based Streamlit emotion TTS app.
+# This avoids the heavier local ESPnet/FastSpeech2 setup.
+
+streamlit>=1.33.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+azure-cognitiveservices-speech>=1.46.0
+
+# Optional: install for stronger emotion detection.
+# transformers>=4.30.0

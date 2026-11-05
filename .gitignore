@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and tooling
+.venv/
+venv/
+env/
+.tmp_pip/
+.python-version
+
+# Test and runtime output
+tests/_tmp/
+tests/pytest-tmp/
+**/pytest-cache-files-*/
+*.wav
+*.mp3
+*.log
+
+# Local model checkpoints and generated artifacts
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.safetensors
+hifigan.v1/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
